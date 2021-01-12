@@ -1,0 +1,137 @@
+body{
+	width: 80vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+h1{
+	font-size: 3vw;
+	color:darkviolet;
+	margin-left: 25vw;
+	background-color: hotpink;
+	margin-right: 25vw;
+}
+
+h2{
+	font-size: 2vw;
+}
+
+h4{
+	font-size:1.5vw;
+}
+
+p{
+	font-size: 1.5vw;
+	color:darkred;
+}
+
+a{
+	text-decoration-line: none;
+	color:green;
+	font-size: 1.25vw;
+}
+
+.article-en-vente a{
+		align-self: center;
+		margin:5vw;
+}
+
+.t-shirth{
+	width: 15vw;
+	height: 20vw;
+}
+.t-shirtf{
+	width:16vw;
+	height:20vw;
+}
+
+.sous-vet{
+	width:20vw;
+	height:14vw;
+}
+
+.chaussure{
+
+}
+
+li{
+	margin-top: 0.75vw;
+}
+
+ul {
+list-style-type:none;
+
+} /*haha stack overflow goes ziooom*/
+
+form{
+	width: 7vw;
+	height: 1vw;
+}
+
+label{
+	font-size: 1vw;
+}
+
+.Categories{
+	height:14vw;
+	display: flex;
+	justify-content: space-around;
+	background-color: pink;
+}
+
+
+.sous-cat{
+	align-self: center;
+
+}
+
+.article-en-vente{
+	display: flex;
+	justify-content: space-around;
+	background-color: chocolate;
+	
+	flex-wrap: wrap;
+	min-height: 30vw;
+}
+
+.article-en-achat{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+}
+
+.panier{
+	min-height: 15vw;
+	min-width:12vw;
+	border: solid green 1vw;
+	align-self: center;
+}
+
+.yeah{
+	height: 14vw;
+	width:20vw;
+
+}
+
+.article-en-confirmation{
+	display:flex;
+	flex-direction: column;
+	background-color: plum;
+	margin-bottom: 1.5vw;
+}
+
+.validation{
+	background-color: lightblue;
+}
+.vive-la-thune{
+	background: url("file:///C:/Users/Utilisateur/Documents/prog/web/projet/ressources/MES-CHAUSSURES.jpg");
+	background-size: cover;
+	height:15vw;
+}
+.vive-la-thune h2{
+	font-size: 3vw;
+
+	color:red;
+}
